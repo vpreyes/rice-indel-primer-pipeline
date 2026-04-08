@@ -1,0 +1,79 @@
+# Primer3 default parameters for rice InDel marker design
+# These are PRIMER_ settings only; SEQUENCE_ fields are set per-InDel in the design script.
+# Format: KEY=VALUE (one per line). Lines starting with # are comments.
+# See: https://primer3.org/manual.html
+
+# --- Primer size ---
+# Optimal primer length in nucleotides
+PRIMER_OPT_SIZE=20
+# Minimum acceptable primer length
+PRIMER_MIN_SIZE=18
+# Maximum acceptable primer length
+PRIMER_MAX_SIZE=24
+
+# --- Melting temperature (Tm) ---
+# Optimal Tm in degrees Celsius (SantaLucia 1998 nearest-neighbor)
+PRIMER_OPT_TM=60.0
+# Minimum acceptable Tm
+PRIMER_MIN_TM=57.0
+# Maximum acceptable Tm
+PRIMER_MAX_TM=63.0
+# Tm calculation method: 1 = SantaLucia 1998 (recommended)
+PRIMER_TM_FORMULA=1
+# Salt correction method: 1 = SantaLucia 1998
+PRIMER_SALT_CORRECTIONS=1
+# Monovalent salt concentration (mM) — typical PCR condition
+PRIMER_SALT_MONOVALENT=50.0
+# dNTP concentration (mM)
+PRIMER_DNTP_CONC=0.2
+
+# --- GC content ---
+# Minimum GC% for a primer
+PRIMER_MIN_GC=40.0
+# Maximum GC% for a primer
+PRIMER_MAX_GC=65.0
+# GC clamp: require at least 1 G or C at 3' end
+PRIMER_GC_CLAMP=1
+
+# --- Product size ---
+# Acceptable PCR product size range (bp). Format: min-max pairs
+PRIMER_PRODUCT_SIZE_RANGE=100-300
+
+# --- Number of primer pairs to return ---
+# Return top 3 pairs per InDel (for fallback in specificity checking)
+PRIMER_NUM_RETURN=3
+
+# --- Homopolymer and repeat limits ---
+# Maximum run of identical nucleotides in a primer (poly-X)
+PRIMER_MAX_POLY_X=4
+
+# --- Self-complementarity (thermodynamic, degrees C) ---
+# Maximum self-annealing score for a single primer (any position)
+PRIMER_MAX_SELF_ANY_TH=45.0
+# Maximum self-annealing at 3' end (hairpin extension risk)
+PRIMER_MAX_SELF_END_TH=35.0
+# Maximum hairpin stability (deltaG threshold in Celsius units)
+PRIMER_MAX_HAIRPIN_TH=24.0
+
+# --- Pair complementarity (thermodynamic) ---
+# Maximum complementarity between left and right primer (any position)
+PRIMER_PAIR_MAX_COMPL_ANY_TH=45.0
+# Maximum complementarity at 3' ends of the pair
+PRIMER_PAIR_MAX_COMPL_END_TH=35.0
+
+# --- Thermodynamic alignment library ---
+# Use thermodynamic parameters: 1 = yes (required for _TH settings)
+PRIMER_THERMODYNAMIC_OLIGO_ALIGNMENT=1
+PRIMER_THERMODYNAMIC_TEMPLATE_ALIGNMENT=0
+
+# --- Mispriming library ---
+# Do not use a mispriming library (set to NONE for speed; add rice repeat lib if available)
+PRIMER_MISPRIMING_LIBRARY=NONE
+
+# --- Secondary structure ---
+# Allow primers with secondary structure; 1 = use thermodynamic check (handled by _TH above)
+PRIMER_SECONDARY_STRUCTURE_ALIGNMENT=1
+
+# --- Output verbosity ---
+# Explain flag: include explanations for why primers were rejected (useful for debugging)
+PRIMER_EXPLAIN_FLAG=1

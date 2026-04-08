@@ -1,0 +1,11 @@
+name: rice-primer
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - samtools>=1.17
+  - blast>=2.13.0
+  - primer3>=2.6.1
+  - pip
