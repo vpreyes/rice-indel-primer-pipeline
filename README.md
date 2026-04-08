@@ -439,4 +439,4 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contact
 
-For questions, please open an issue on GitHub or contact the Doi Laboratory, Graduate School of Agriculture, Kyoto University.
+For questions, please open an issue on GitHub or contact Vincent Pamugas Reyes, Graduate School of Bioagricultural Sciences, Nagoya University.
