@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-yellow)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 
-A fully automated pipeline for designing PCR primers targeting InDel (insertion/deletion) markers in QTL regions of rice. Primers are validated for specificity via BLAST, checked for correct flanking of the InDel, and formatted using a standardized naming convention (IDS format).
+An automated pipeline for designing PCR primers targeting InDel (insertion/deletion) markers in QTL regions of rice. Primers are validated for specificity via BLAST, checked for correct flanking of the InDel, and formatted using a standardized naming convention (IDS format).
 
 ---
 
