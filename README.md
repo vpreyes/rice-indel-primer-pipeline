@@ -181,8 +181,8 @@ chr02   28698210    .    GC     2       GCATCGATCGATCGATCG     18      892.1
 
 ```
 TRAIT       MARKER      CHR     POS
-grain_width GW5         chr05   5200000
-heading_date Hd1        chr06   9550000
+trait1      GBS_chr02_30930592  chr02   30930592
+trait2      GBS_chr02_29898387  chr02   29898387
 ```
 
 ---
