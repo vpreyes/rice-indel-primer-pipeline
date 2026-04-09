@@ -31,7 +31,7 @@ An automated pipeline for designing PCR primers targeting InDel (insertion/delet
 
 Insertion/deletion (InDel) polymorphisms are valuable co-dominant markers for QTL mapping and marker-assisted selection in rice. This pipeline takes whole-genome resequencing-derived InDel calls (e.g., from GATK or freebayes), filters them for suitability as PCR markers, designs flanking primers with Primer3, and verifies specificity against the full rice reference genome using BLAST.
 
-The pipeline was developed for QTL fine-mapping in *Oryza sativa* and outputs primers in the IDS (InDel Sequence) naming format suitable for genotyping by agarose gel electrophoresis.
+The pipeline was developed designing InDel markers.
 
 ---
 
