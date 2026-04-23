@@ -440,3 +440,10 @@ MIT License. See [LICENSE](LICENSE) for details.
 ## Contact
 
 For questions, please open an issue on GitHub or contact Vincent Pamugas Reyes, Graduate School of Bioagricultural Sciences, Nagoya University.
+
+---
+
+## Citation
+
+Reyes, V. P. (2026). rice-indel-primer-pipeline: Rice InDel Primer Design Pipeline [Computer software]. GitHub. https://github.com/vpreyes/rice-indel-primer-pipeline
+
