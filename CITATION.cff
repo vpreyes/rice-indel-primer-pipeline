@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Rice InDel Primer Design Pipeline"
+authors:
+  - family-names: "Reyes"
+    given-names: "Vincent Pamugas"
+url: "https://github.com/vpreyes/rice-indel-primer-pipeline"
+license: "MIT"
+abstract: "An automated pipeline for designing PCR primers targeting InDel markers in QTL regions of rice."
