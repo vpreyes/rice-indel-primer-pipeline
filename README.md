@@ -12,7 +12,7 @@ An automated pipeline for designing PCR primers targeting InDel (insertion/delet
 
 If you use this pipeline, please cite it using the GitHub **Cite this repository** feature or the `CITATION.cff` file in this repository.
 
-Reyes, V. P. (2026). rice-indel-primer-pipeline: Rice InDel Primer Design Pipeline [Computer software]. GitHub. https://github.com/vpreyes/rice-indel-primer-pipeline
+Reyes, V. P. (2026). rice-indel-primer-pipeline [Computer software]. GitHub. https://github.com/vpreyes/rice-indel-primer-pipeline
 
 
 ---
