@@ -44,7 +44,7 @@ The pipeline was developed designing InDel markers.
 ## Pipeline Overview
 
 ```
-rice_reference.fa   indels.tsv   qtl_peaks.tsv
+rice_reference.fa   indels.tsv   
         |               |
    [Step 1]         [Step 2]
   Index genome    Filter InDels
@@ -183,13 +183,6 @@ chr02   28698210    .    GC     2       GCATCGATCGATCGATCG     18      892.1
 | ALTLEN  | Length of ALT allele                                |
 | QUAL    | Variant quality score                               |
 
-### QTL Peaks (TSV)
-
-```
-TRAIT       MARKER      CHR     POS
-trait1      GBS_chr02_30930592  chr02   30930592
-trait2      GBS_chr02_29898387  chr02   29898387
-```
 
 ---
 
